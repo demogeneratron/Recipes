@@ -1,0 +1,17 @@
+name: Recipes
+description: Will store my recipes and make sure they are never lost.
+model:
+ packageName : com.generatron.recipe
+ entities :
+  - name : Recipe
+    attributes:
+     - name : id
+       type : String
+       primaryKey : true
+     - name : title
+       type : String
+     - name : ingredients
+       type : String
+     - name : steps
+       type : String
+       
